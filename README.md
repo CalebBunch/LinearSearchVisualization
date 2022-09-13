@@ -3,6 +3,6 @@ Linear Search Visualization using python and pygame
 
 Dependencies:
 
-pygame
-tkinter
-pygame-widgets
+1. pygame
+2. tkinter
+3. pygame-widgets
