@@ -76,7 +76,7 @@ def urs_input():
         string = entry.get()
         entry.delete(0, "end")
         str_list = string.split(" ")
-        if str_list[-1].isdigit() == True:
+        if str_list[-1].isdigit():
             target = int(str_list[-1])
             root.destroy()
             time.sleep(0.5)
@@ -89,7 +89,7 @@ def urs_input():
         string = entry.get()
         entry.delete(0, "end")
         str_list = string.split(" ")
-        if str_list[-1].isdigit() == True:
+        if str_list[-1].isdigit():
             target = int(str_list[-1])
             root.destroy()
             time.sleep(0.5)
